@@ -1,0 +1,33 @@
+generated: '2026-10-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://reflag.com/pricing
+sources:
+- https://reflag.com/pricing
+name: Bucket pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Starter
+  price_text: $0 /mo
+  price: 0
+  description: Unlimited seats, 1K MTUs, 3 environments, Toolbar, CLI, MCP, Linear, Slack
+- name: Pro
+  price_text: $125/mo
+  price: 125
+  description: Everything on Starter, 10K MTUs, unlimited environments, user permissions, bulk management, company segment CSV, self‑cleaning
+    flags, etc.
+- name: Enterprise
+  price_text: Custom
+  description: Everything on Pro, custom MTUs, migration support, SAML, priority support, concierge support, custom terms
+  features:
+  - Custom MTUs
+  - Migration support
+  - SAML
+  - Priority support
+  - Concierge support
+  - Custom terms
+  limits:
+  - name: MTUs
+    limit_text: Custom
+docs: https://reflag.com/pricing

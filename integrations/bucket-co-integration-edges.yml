@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/bucket-co/integrations
+- https://zapier.com/apps/bucket/integrations
+- https://n8n.io/integrations/bucket-co/
+- https://composio.dev/toolkits/bucket-co
+- https://monid.ai/tools/bucket-co
+checked:
+- https://composio.dev/toolkits/bucket-co
+- https://monid.ai/tools/bucket-co
+- https://n8n.io/integrations/bucket-co/
+- https://zapier.com/apps/bucket-co/integrations
+- https://zapier.com/apps/bucket/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

@@ -1,0 +1,6 @@
+generated: '2026-10-22'
+method: probed
+generator: harvest-llms.py
+source: https://reflag.com/llms.txt
+bytes: 42495
+note: saved verbatim; the provider's own document
