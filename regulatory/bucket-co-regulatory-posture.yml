@@ -1,20 +1,20 @@
 generated: '2026-10-22'
-source: 'https://reflag.com'
+source: https://reflag.com
 method: probed
 signals:
   subprocessors:
     evidence:
-      url: "https://reflag.com/legal/subprocessors"
-      http_status: 200
-      fetched: true
-      quote: "Reflag uses third party subprocessors, such as cloud computing providers and customer support software, to provide our services. We enter into GDPR-compliant data processing agreements with each subprocessor, extending GDPR safeguards everywhere personal data is processed."
-      section: "Subprocessors"
-      note: "Company lists its subprocessors and states GDPR-compliant agreements."
+    - http_status: 200
+      fetched: null
+      quote: Reflag uses third party subprocessors, such as cloud computing providers and customer support software, to provide our services. We enter into GDPR-compliant data processing agreements with each subprocessor, extending GDPR safeguards everywhere personal data is processed.
+      section: Subprocessors
+      note: Company lists its subprocessors and states GDPR-compliant agreements.
+      source: https://reflag.com/legal/subprocessors
   data_retention:
     evidence:
-      url: "https://reflag.com/legal/privacy-policy"
-      http_status: 200
-      fetched: true
-      quote: "We log all access to all accounts by IP address, so we can always verify that no unauthorized access has happened for as long as the logs are kept."
-      section: "Privacy Policy"
-      note: "Describes retention of access logs indefinitely."
+    - http_status: 200
+      fetched: null
+      quote: We log all access to all accounts by IP address, so we can always verify that no unauthorized access has happened for as long as the logs are kept.
+      section: Privacy Policy
+      note: Describes retention of access logs indefinitely.
+      source: https://reflag.com/legal/privacy-policy
